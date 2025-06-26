@@ -1,0 +1,33 @@
+.wrapper {
+  width: 100%;
+}
+
+.link {
+  display: inline-block;
+  width: 100%;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: 600;
+  background-color: rgb(151, 198, 128);
+  color: rgb(30, 30, 47);
+  text-decoration: none;
+  text-align: center;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.link:hover {
+  background-color: rgb(140, 180, 120);
+  box-shadow: rgb(254, 186, 136) 0px -120px 0px 0px inset;
+}
+
+.link:active {
+  background-color: rgb(130, 170, 110);
+}
+
+.link:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(151, 198, 128, 0.5);
+}
